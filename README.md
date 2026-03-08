@@ -37,9 +37,6 @@ Flask-todo-app
 ├── requirements.txt
 └── README.md
 
-----
-
-
 ---
 
 ## ⚙️ Installation & Setup
