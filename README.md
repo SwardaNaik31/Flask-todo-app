@@ -39,26 +39,29 @@ Flask-todo-app
 
 ---
 
-##⚙️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/SwardaNaik31/Flask-todo-app.git
-2️⃣ Navigate to the project folder
-cd Flask-todo-app
-3️⃣ Install dependencies
-pip install -r requirements.txt
-4️⃣ Run the application
-python app.py
-5️⃣ Open in your browser
-http://127.0.0.1:5000
-🗄️ Database Setup
+## ⚙️ Installation & Setup
 
-Make sure MySQL is running, then create a database:
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/SwardaNaik31/Flask-todo-app.git
+### 2️⃣ Navigate to project folder
+cd Flask-todo-app
+### 3️⃣ Install dependencies
+pip install -r requirements.txt
+### 4️⃣ Run the application
+python app.py
+### 5️⃣ Open in browser
+http://127.0.0.1:5000
+### 🗄️ Database Setup
+
+Make sure MySQL is running and create a database:
 
 CREATE DATABASE todo_db;
 
 Update the database connection in app.py if needed:
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://username:password@localhost/todo_db"
+app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://username:password@localh
 
 ---
 
