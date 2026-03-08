@@ -40,7 +40,6 @@ Flask-todo-app
 ---
 
 ## ⚙️ Installation & Setup
-
 1️⃣ Clone the repository
 
 ```bash
